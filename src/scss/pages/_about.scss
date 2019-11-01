@@ -1,0 +1,171 @@
+.section-about {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: rgb(0, 0, 0);
+  position: relative;
+  display: block;
+
+  .animation-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    .image {
+      position: absolute;
+      height: auto;
+      box-sizing: border-box;
+
+      &:nth-child(2) {
+        left: 3%;
+        width: 5%;
+        animation: fly 15s linear infinite;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 80%;
+
+          &:nth-child(2) {
+            animation: glow 3s ease infinite;
+          }
+        }
+      }
+
+      &:nth-child(3) {
+        left: 38%;
+        width: 5%;
+        animation: fly 10s linear infinite;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 80%;
+
+          &:nth-child(2) {
+            animation: glow 3s ease infinite;
+          }
+        }
+      }
+
+      &:nth-child(4) {
+        left: 55%;
+        width: 6%;
+        animation: fly 20s linear infinite;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 70%;
+
+          &:nth-child(2) {
+            animation: glow 3s ease infinite;
+            opacity: 0.6;
+          }
+        }
+      }
+
+      &:nth-child(5) {
+        left: 85%;
+        width: 7%;
+        animation: fly 8s linear infinite;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+
+          &:nth-child(2) {
+            animation: glow 3s ease infinite;
+          }
+        }
+      }
+
+      &:nth-child(6) {
+        left: 5%;
+        width: 1%;
+        animation: fly 8s linear infinite;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+        }
+      }
+
+      &:nth-child(7) {
+        left: 55%;
+        width: 1%;
+        animation: fly 10s linear infinite;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+        }
+      }
+
+      &:nth-child(8) {
+        left: 62%;
+        width: 1%;
+        animation: fly 28s linear infinite;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+        }
+      }
+
+      &:nth-child(9) {
+        left: 90%;
+        width: 1%;
+        animation: fly 18s linear infinite;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+        }
+      }
+
+      &:nth-child(10) {
+        left: 90%;
+        width: 1%;
+        animation: fly 18s linear infinite;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+        }
+      }
+
+      &:nth-child(11) {
+        left: 90%;
+        width: 1%;
+        animation: fly 18s linear infinite;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

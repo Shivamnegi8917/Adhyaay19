@@ -1,0 +1,76 @@
+.body-wrapper {
+  height: auto;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.section-main {
+  width: 100%;
+  height: 100vh;
+  background: #17182f; //linear-gradient(to bottom right, rgb(43, 47, 119), rgb(7, 11, 52));
+  overflow: hidden;
+  position: relative;
+
+  h1 {
+    color: white;
+    font-size: 20px;
+  }
+
+  .back {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 80px;
+    top: 0;
+    left: 0;
+    z-index: 12;
+  }
+
+  .stars-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .particle-js-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  &--nav {
+    &.laptop {
+      position: absolute;
+      top: 20px;
+      right: 50px;
+
+      ul {
+        list-style: none;
+
+        li {
+          display: inline-block;
+          position: relative;
+          width: auto;
+          height: auto;
+          color: white;
+          font-size: 32px;
+          padding: 5px 30px;
+          box-sizing: border-box;
+          font-family: "Caveat", cursive;
+          letter-spacing: 1px;
+          cursor: pointer;
+
+          &:hover {
+            background: rgb(36, 45, 150);
+            border-radius: 2px;
+          }
+        }
+      }
+    }
+  }
+}

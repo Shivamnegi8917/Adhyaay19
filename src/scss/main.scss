@@ -1,0 +1,19 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/utilities";
+
+@import "components/shootingStar";
+
+@import "pages/home";
+@import "pages/about";
+@import "pages/loader";
+@import "pages/mainLogo";
+@import "pages/RegisterModal";
+@import "pages/LoginModal";
+@import "pages/events";
+@import "pages/ImageSlider";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import "pages/confirm";
